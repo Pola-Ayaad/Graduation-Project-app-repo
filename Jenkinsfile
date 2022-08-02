@@ -5,7 +5,8 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/Pola-Ayaad/Graduation-Project-app-repo.git'
+                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/Pola-Ayaad/Graduation-Project-app-repo.git'
+                sh 'ls'
 
             }
         }
