@@ -5,7 +5,6 @@ Graduation-Project-app-repo
 1- Jenkinsfile will get code from Repo 
 
 2- Creating the pipeline 
-![latest](https://user-images.githubusercontent.com/71693153/182425797-238a00ce-b7aa-4d47-98ab-b1d7289096ba.png)
 
 
 3- SSH on the Machine to get the LoadBalancer External IP 
